@@ -8,6 +8,8 @@ from docutils.core import publish_parts
 from markdown import markdown
 from ssg.content import Content
 
+from ssg import hooks
+
 
 class Parser:
     base_ext = ".html"
